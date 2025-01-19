@@ -1,98 +1,90 @@
-# Welcome to React Router!
+# 🚀 **Router-V7-HeroUI-App**
 
-A modern, production-ready template for building full-stack React applications using React Router.
+به **Framework React Router V7** خوش آمدید! 🌟
 
-## Features
+یک پروژه پیشرفته و ماژولار برای مدیریت TODOها با بهره‌گیری از جدیدترین ابزارها و قابلیت‌های **React Router v7** و طراحی زیبا با استفاده از **HeroUI**. 💻
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+---
 
-## Getting Started
+## 📖 **درباره پروژه**
 
-### Installation
+**Router-V7-HeroUI-App** با هدف ارائه تجربه‌ای حرفه‌ای در یادگیری و استفاده از **React Router v7** طراحی شده است. این پروژه شما را با ویژگی‌های جدید این کتابخانه آشنا کرده و امکان توسعه برنامه‌هایی انعطاف‌پذیر و کاربرپسند را فراهم می‌آورد.
 
-Install the dependencies:
+---
+
+## 🔹 **ویژگی‌های فنی**
+
+### **Frontend**
+- **React 18**: بهره‌گیری از آخرین نسخه React برای عملکرد بهتر.
+- **React Router v7**: مسیریابی پیشرفته با ابزارهای مدرن و ساده.
+- **HeroUI**: مجموعه کامپوننت‌های زیبا و کاربردی برای طراحی رابط کاربری.
+- **TailwindCSS**: ابزار استایل‌دهی سریع و واکنش‌گرا.
+- **React Toastify**: نمایش اعلان‌های کاربرپسند و قابل تنظیم.
+- **Remix Icon**: آیکون‌های متنوع برای غنی‌تر کردن تجربه کاربری.
+
+### **Backend**
+- **Node.js**: پلتفرم قدرتمند برای اجرای کدهای سمت سرور.
+- **Express.js**: ایجاد APIهای بهینه و مقیاس‌پذیر.
+- **MongoDB**: مدیریت داده‌ها به صورت انعطاف‌پذیر و مقیاس‌پذیر.
+
+---
+
+## 🎯 **ویژگی‌های کلیدی پروژه**
+
+- 🔗 **React Router v7**: مسیریابی داینامیک و پیچیده به سادگی.
+- 🎨 **HeroUI** و **TailwindCSS**: طراحی مدرن و انعطاف‌پذیر.
+- 📦 **ساختار ماژولار پروژه**: تسهیل در نگهداری و توسعه.
+- 🔒 **مدیریت امنیت**: استفاده از JWT برای احراز هویت امن.
+
+---
+
+## 🛠️ **مراحل نصب**
+
+### 1️⃣ کلون کردن مخزن
+ابتدا مخزن پروژه را با دستور زیر کلون کنید:
 
 ```bash
+git clone https://github.com/academy-redmaster/router-v7-heroui-app.git
+```
+
+### 2️⃣ ورود به پوشه پروژه
+
+```bash
+cd toplearn-course-framework-router-v7-app
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
+### 3️⃣ اجرای پروژه
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+---
 
-## Building for Production
+## 📄 **مستندات API**
 
-Create a production build:
+برای مشاهده مستندات API، به آدرس زیر مراجعه کنید:
 
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-This template includes three Dockerfiles optimized for different package managers:
-
-- `Dockerfile` - for npm
-- `Dockerfile.pnpm` - for pnpm
-- `Dockerfile.bun` - for bun
-
-To build and run using Docker:
-
-```bash
-# For npm
-docker build -t my-app .
-
-# For pnpm
-docker build -f Dockerfile.pnpm -t my-app .
-
-# For bun
-docker build -f Dockerfile.bun -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+[Swagger Documentation](http://localhost:8008/api-docs)
 
 ---
 
-Built with ❤️ using React Router.
+## 📬 **تماس با ما**
+
+در صورت نیاز به اطلاعات بیشتر، از طریق اطلاعات زیر با ما تماس بگیرید:
+
+- 📧 ایمیل: mr.redmasterr@gmail.com
+- 🌐 وب‌سایت: [Redmaster Academy](https://redmaster.academy/)
+
+---
+
+## 🤝 **مشارکت در پروژه**
+
+مشارکت شما باعث رشد این پروژه می‌شود! ❤️
+
+1. فورک کنید.
+2. تغییرات خود را اعمال کنید.
+3. Pull Request ارسال کنید.
+
+با آرزوی موفقیت برای شما در یادگیری و توسعه! 😄
